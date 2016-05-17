@@ -1,6 +1,6 @@
-# Particle Explorer
+# Particle Mass Flash
 
-A Bootstrap/jQuery driven interface for interacting with the Particle.io platform. Specifically, it allows for device status retrieval, access to exposed variables and functions, and event publishing.
+A Bootstrap/jQuery driven interface for bulk flashing a single firmware to multiple Particle.io devices. Specifically, a user can supply a .json file with device ID/access token pairs and a firmware binary file. The firmware binary will be pushed to all devices in the .json file via the Particle.io REST API.
 
 ### Acknowledgements
 
