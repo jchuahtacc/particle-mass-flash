@@ -3,9 +3,8 @@ define(['jquery',
         'particledevicelist',
         'particlefirmware',
         'bootstrapgrowl',
-        'firebase', 'bootstrap'], function($, Particle) {
+        'bootstrap'], function($, Particle) {
   function App() {
-      var Firebase = require('firebase');
       this.particle = new Particle();
       $(document).ready(this.initialize.apply(this));
 

@@ -69,7 +69,7 @@ define('particledevicelist',
       $('[particle-device-list="json"]').on('change', fileSelectCallback);
     }
 
-    $('.particle-device-list').addClass('panel panel-default');
+    $('.particle-device-list').addClass('panel panel-success');
     init();
   }
 

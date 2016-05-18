@@ -2,15 +2,12 @@ require.config({
   baseUrl: "js",
   shim : {
         "bootstrap" : { "deps" :['jquery'] },
-        "firebase" : { exports: 'Firebase' },
         "bootstrapgrowl" : { "deps" : ['jquery'] }
     },
   paths: {
       jquery: "libs/jquery-2.2.0.min",
-      particlebase: "libs/ParticleBase",
       app: "app",
       "bootstrap" :  "libs/bootstrap.min",
-      firebase : "libs/firebase",
       text: "libs/text",
       particle: "libs/particle.min",
       bootstrapgrowl : "libs/jquery.bootstrap-growl.min",

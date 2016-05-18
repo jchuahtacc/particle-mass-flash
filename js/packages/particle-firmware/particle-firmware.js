@@ -57,7 +57,7 @@ define('particlefirmware',
       keys = Object.keys(list);
     }
 
-    $('.particle-firmware').addClass('panel panel-default');
+    $('.particle-firmware').addClass('panel panel-success');
     init();
   }
 
